@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.floating-div {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transform: translate(0, -50%);
+    z-index: 9999;
+
+}
